@@ -11,5 +11,8 @@
   "dependencies": {
     "save": "^2.9.0",
     "selenium-webdriver": "^4.21.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0"
   }
 }
