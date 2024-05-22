@@ -9,10 +9,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "allure-mocha": "^2.15.1",
     "save": "^2.9.0",
     "selenium-webdriver": "^4.21.0"
   },
   "devDependencies": {
-    "mocha": "^10.4.0"
+    "mocha": "^10.4.0",
+    "mocha-allure-reporter": "^1.4.0"
+  },
+  "mocha": {
+    "parallel": false,
+    "reporter": "allure-mocha",
+    "reporterOptions": {
+      "resultsDir": "allure-reports"
+    }
   }
 }
